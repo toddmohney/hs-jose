@@ -42,7 +42,7 @@ doJwsVerify jwk jws = runExceptT $ 'verifyJWS'' jwk jws
 module Crypto.JOSE.JWS
   (
   -- * Overview
-    JWS
+    JWS(..)
   , GeneralJWS
   , FlattenedJWS
   , CompactJWS
